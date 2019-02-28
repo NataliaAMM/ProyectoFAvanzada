@@ -1,0 +1,23 @@
+body{
+  
+    text-align: center;
+    font-family: verdana;
+    background-image: url(/imagenes/Blanco.jpg);
+    font-size: x-large;
+    background: url(/imagenes/Blanco.jpg);
+}
+table{
+    width: 70%;
+}    
+h1{
+    color: #34495E;
+}
+p{
+    color: #515A5A;
+    font-family: verdana;
+    font-weight: bold;
+}
+td{
+    color: #515A5A;
+    font-family: initial;
+}

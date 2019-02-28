@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    font-family: verdana;
+    background-color: red;
+    font-size: x-large;
+    
+}
+.usuario{
+    font-size: medium;
+}
+h1{
+    color: #34495E;
+}
+th{
+    color: #515A5A;
+    font-family: verdana;
+}
+td{
+    color: #515A5A;
+    font-family: initial;
+}
+.Estadios{
+    width: 70%;
+    text-align: center;
+}
+

@@ -1,0 +1,42 @@
+create database Biblio1;
+
+CREATE TABLE Usuarios(
+  id int(11) NOT NULL auto_increment ,
+  nombre varchar(30) NOT NULL  ,
+  documento varchar(30) NOT NULL  ,
+  correo varchar(30) ,
+  password varchar(30) NOT NULL  ,
+  Libros varchar(30),
+  PRIMARY KEY  (id)
+)ENGINE=InnoDB;
+
+
+INSERT INTO Usuarios VALUES (1,'Victor','9802', 'mail@', 'pass','Nagle'), (2, 'Manuela','0289', '@liam', 'opass', 'ninguno');
+
+
+CREATE TABLE Textos (
+  id int(11) NOT NULL auto_increment ,
+  autor varchar(30) NOT NULL  ,
+  nombre varchar(30) NOT NULL  ,
+  anio varchar(30) NOT NULL,
+  PRIMARY KEY  (id)
+)ENGINE=InnoDB;
+
+
+INSERT INTO Textos VALUES (1,'Anónimo','Las mil y una noches','1974'),
+(2,'Dante Alighieri','Divina Comedia','1472'),
+(3,'Jane Austen','Orgullo y prejuicio','1813'),
+(4,'Giovanni Boccaccio','Decamerón','1353');
+
+(5,'Emily Brontë','Cumbres Borrascosas','1847'),
+(6,'Miguel de Cervantes','Don Quijote de la Mancha','1615'),
+(7,'Geoffrey Chaucer','Los cuentos de Canterbury','1476'),
+(8,'Fiódor Dostoievski','Crimen y castigo','1866'),
+(9,'Ralph Ellison','El hombre invisible','1897'),
+(10,'Gabriel García Márquez','Cien años de soledad','1967'),
+(11,'Franz Kafka','La metamorfosis','1915'),
+(12,'Ernest Hemingway','El viejo y el mar','1952'),
+(13,'Homero','Ilíada','00'),(14,'Homero','Odisea','00'),
+(15,'James Joyce','Ulises','1922'),(16,'Herman Melville','Moby-Dick','1851'), 
+(17,'George Orwell','1984','1949'),
+(18,'José Saramago','Ensayo sobre la ceguera','1995');
